@@ -1,0 +1,47 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body{
+  background-color: rgba(139, 116, 187, 1);
+}
+
+.logo{
+  text-align: center;
+}
+
+.ross,
+.rachel{
+  text-align: center;
+  margin-top: 115px;
+  display: inline-block;
+  margin-left: 150px;
+}
+.footer{
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 400px;
+}
+.rossPlayersList{
+  margin-left: 200px;
+  display: inline-block;
+  width: 100px;
+}
+.attack-button{
+  margin-left: 492px;
+  display: inline-block;
+}

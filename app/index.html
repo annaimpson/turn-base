@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>turn base</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+    <div class="logo"><img src="images/friends-logo.png" alt=""></div>
+  <header>
+
+  </header>
+
+  <body>
+
+    <div class="container">
+        <div class="ross">
+          <h2>Ross</h2>
+          <iframe src= "//giphy.com/embed/NofEoQQXKySUE" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <div class="health"></div>
+        </div>
+
+        <div class="rachel">
+          <h2>Rachel</h2>
+          <iframe src="//giphy.com/embed/L4BIy1Z7ATRIs" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          <h2 class="selectedRachel"></h2>
+          <div class="health"></div>
+        </div>
+
+        <div class="player1">
+          <button type="attack-button" class="btn btn-default attack-button">Attack</button>
+        </div>
+
+
+        <select class="rossPlayersList"></select><button type="button" class="startbutton">Start</button>
+
+      </div>
+
+      <div class="footer">
+        <h3>CLAP! CLAP! CLAP! CLAP! CLAP!</h3>
+      </div>
+
+        <script type="text/template" id="friendsPlayers">
+          {{#each this as |ross|}}
+          <option value="{{ross.name}}" class="charactername">{{ross.name}}</option>
+          {{/each}}
+        </script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
